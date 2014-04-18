@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gdg.nat.demoanimation"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="gdg.nat.demoanimation.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="gdg.nat.demoanimation.AnimationSelectScreen"
+            android:label="@string/title_activity_animation_select_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="gdg.nat.demoanimation.ScaleAnimation"
+            android:label="@string/title_activity_scale_animation"
+            android:parentActivityName="gdg.nat.demoanimation.AnimationSelectScreen" >
+        </activity>
+        <activity
+            android:name="gdg.nat.demoanimation.FlipAnimation"
+            android:label="@string/title_activity_flip_animation"
+            android:parentActivityName="gdg.nat.demoanimation.AnimationSelectScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gdg.nat.demoanimation.AnimationSelectScreen" />
+        </activity>
+        <activity
+            android:name="gdg.nat.demoanimation.SlideOutDemo"
+            android:label="@string/title_activity_slide_out_animation"
+            android:parentActivityName="gdg.nat.demoanimation.AnimationSelectScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gdg.nat.demoanimation.AnimationSelectScreen" />
+        </activity>
+    </application>
+
+</manifest>

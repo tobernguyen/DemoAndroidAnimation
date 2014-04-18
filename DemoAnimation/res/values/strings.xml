@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Demo Animation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_animation_select_screen">Select Animation</string>
+    <string name="title_activity_scale_animation">Scale Animation</string>
+    <string name="title_activity_flip_animation">Flip Animation Demo</string>
+    <string name="title_activity_slide_out_animation">Slide out animation</string>
+    <string name="user_guild_for_slide_button">Press bomb one time - it\'ll show the full button, and restore to its default position after 2 seconds. \n\nDouble click the bomb will active its function (interval between two clicks should smaller 2 seconds).</string>
+
+</resources>

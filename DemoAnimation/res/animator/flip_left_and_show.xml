@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+        <objectAnimator
+        android:duration="0"
+        android:propertyName="textSize"
+        android:valueFrom="0"
+        android:valueTo="0" >
+    </objectAnimator>
+    <objectAnimator
+        android:duration="500"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:valueTo="-90" />
+    <objectAnimator
+        android:duration="0"
+        android:propertyName="textSize"
+        android:startOffset="500"
+        android:valueFrom="0"
+        android:valueTo="20" >
+    </objectAnimator>
+    <objectAnimator
+        android:duration="0"
+        android:propertyName="rotationY"
+        android:startOffset="500"
+        android:valueFrom="-90"
+        android:valueTo="90" >
+    </objectAnimator>
+    <objectAnimator
+        android:duration="500"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:startOffset="500"
+        android:valueFrom="90"
+        android:valueTo="0" >
+    </objectAnimator>
+
+</set>
